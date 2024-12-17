@@ -1,0 +1,76 @@
+.Banner{
+    width: 100vw;
+    height: 311px;
+    /* background-color: blueviolet; */
+    background: url('../../assets/Images/Banner.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+    z-index: 0;
+}
+.Banner>h2{
+    font-family: 'Oswald';
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 111.15px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* box-shadow: 4px 3px 0px 0px #800020; */
+    text-shadow: 4px 3px 0px #800020;
+    color: #FFFFFF;
+}
+.Banner>p{
+    width: 681px;
+    height: 44px;
+    font-family: 'Kelly Slab';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #BBBBBB;
+}
+
+@media (max-width: 768px) {
+    .Banner{
+        width: 100svw;
+        height: 231px;
+        /* background-color: blueviolet; */
+        background: url('../../assets/Images/Banner.png');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Banner>h2{
+        font-family: 'Oswald';
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 111.15px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        /* box-shadow: 4px 3px 0px 0px #800020; */
+        text-shadow: 4px 3px 0px #800020;
+        color: #FFFFFF;
+    }
+    .Banner>p{
+        width: 361px;
+        height: 40px;
+        font-family: 'Kelly Slab';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.39px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+        color: #BBBBBB;
+    }
+}

@@ -1,0 +1,169 @@
+.TabBar{
+    width: 100vw;
+    height: 79px;
+    /* background-color: bisque; */
+    background: url('../../assets/Images/TabBg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.plus-btn {
+    font-size: 2rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    background-color: #000000;
+    border: 1px solid #007bff;
+    margin-left: 5px;
+    color: #FFFFFF;
+  }
+  
+  .dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .dialog-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .dialog-actions button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .dialog-actions button[type='submit'] {
+    background: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .dialog-actions button[type='button'] {
+    background: #f0f0f0;
+    color: black;
+    border: none;
+  }
+  
+
+  .tab-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+    /* background-color: bisque; */
+  }
+  
+  .tab-item {
+    /* padding: 1rem; */
+    border: 0.5px solid #0796EF;
+    /* border-radius: 4px; */
+    background-color:#000000;
+    /* width: 200px; */
+    width: 114.25px;
+    height: 49.98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .tab-item h3 {
+    margin: 0;
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.71px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+  }
+  
+  .tab-item p {
+    margin: 0.5rem 0 0;
+    color: #666;
+  }
+  
+  .tab-item.active {
+    background-color: #0796EF; /* Dark red or any color for the active tab */
+    color: white; /* Change text color when active */
+    font-weight: bold; /* Optional: Make text bold */
+}
+
+@media (max-width: 768px) {
+  .TabBar{
+    width: 100svw;
+    height: 60px;
+    /* background-color: bisque; */
+    /* background: url('../../assets/Images/TabBg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .plus-btn {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    background-color: #000000;
+    border: 1px solid #007bff;
+    margin-left: 5px;
+    color: #FFFFFF;
+  }
+  .tab-item {
+    /* padding: 1rem; */
+    border: 0.5px solid #0796EF;
+    /* border-radius: 4px; */
+    background-color:#000000;
+    /* width: 200px; */
+    /* width: 114.25px; */
+    width: 72px;
+    height: 31.98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+}
+  

@@ -1,0 +1,188 @@
+.Footer{
+    width: 100vw;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 0;
+}
+.Footer>.box{
+    width: 373px;
+    height: 134px;
+    /* background-color: blue; */
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Footer>.box>h4{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.71px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0796EF;
+}
+.Footer>.box>.phone{
+    height: 22.6px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.Footer>.box>.phone>p{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.71px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #857878;
+}
+.Footer>.box>.logopic{
+    width: 86px;
+    height: 76px;
+    position: absolute;
+    top: -30%;
+}
+.Footer>.box>h2{
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 51.87px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0796EF;
+    display: flex;
+    gap:5px;
+}
+.Footer>.box>h2>.net{
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 51.87px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5F5F5;
+}
+.Footer>.box>h2>.soft{
+    color: #857878;
+}
+.Footer>.box>.social{
+    width: 86px;
+    height: 12.68px;
+}
+
+.Footer>.box>.map{
+    /* height: 22.6px; */
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: start;
+}
+.Footer>.box>.map>p{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.71px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #857878;
+}
+
+@media (max-width: 768px) {
+    .Footer{
+        width: 100svw;
+        height: 400px;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        z-index: 0;
+        /* padding: 20px; */
+        padding: 60px 30px 50px 30px;
+    }
+    .Footer > .box:nth-child(2) {
+        order: -1; /* Reorder the second box to appear first */
+    }
+    .Footer>.box>.logopic{
+        width: 50px;
+        height: 44px;
+        position: absolute;
+        top: -30%;
+    }
+    .Footer>.box>h2{
+        font-family: 'Oswald';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 44.46px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 20px;
+    }
+    .Footer>.box>h2>.net{
+        font-family: 'Oswald';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 44.46px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .Footer>.box>h2>.soft{
+        font-family: 'Oswald';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 44.46px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .Footer>.box{
+        width: 361px;
+        height: 128px;
+        /* background-color: blue; */
+        border-radius: 15px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .Footer>.box>h4{
+        font-family: 'Oswald';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23.71px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #0796EF;
+    }
+}
